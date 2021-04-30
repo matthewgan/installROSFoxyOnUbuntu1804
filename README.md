@@ -9,6 +9,7 @@ ROS 2 Foxy Fitzroy (Originally bind with Ubuntu 20.04)
 * __Install ROS 1 Melodic before install ROS 2__.
 
 * Install ROS 1 Melodic by following official ROS 1 [Melodic installation guide](https://wiki.ros.org/melodic/Installation/Ubuntu).
+   Or use installROS repo from [JetsonHacks] (https://github.com/jetsonhacks/installROS.git).
 
 * Follow the first few steps from [Official Installation](https://docs.ros.org/en/foxy/Installation/Ubuntu-Development-Setup.html).
 
