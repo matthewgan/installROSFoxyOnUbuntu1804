@@ -29,7 +29,7 @@ ROS 2 Foxy Fitzroy (Originally bind with Ubuntu 20.04)
         cd ~/ros2_foxy/
         colcon build --symlink-install --packages-skip ros1_bridge
     ```
-    This may take a while about 20 mins...
+    This may take a while about 20 mins...(3h 45mins on Jetson NANO)
 
 * Next you need to source the ROS 1 environment
     ros1_bridge will be built with support for any message/service packages that are on your path and have an associated mapping between ROS 1 and ROS 2. Therefore you must add any ROS 1 or ROS 2 workspaces that have message/service packages that you want to be bridged to your path before building the bridge.
@@ -90,5 +90,5 @@ You will need four terminals to do this quick test
 
 ## TODO
 
-- [ ] Check if it works with Jetson NANO JetPack 4.5.1
+- [x] Check if it works with Jetson NANO JetPack 4.5.1
 - [ ] Check if it works with Jetson Xavier NX JetPack 4.5.1
